@@ -1,7 +1,12 @@
 {
   "name": "calc-app",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "## Project setup ``` npm install ```",
+  "main": "index.js",
+  "devDependencies": {
+    "@vue/cli-service": "^3.11.0",
+    "vue-template-compiler": "^2.6.10"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
@@ -10,17 +15,14 @@
     "vue": "^2.6.10",
     "vue-router": "^3.0.3"
   },
-  "devDependencies": {
-    "@vue/cli-service": "^3.11.0",
-    "vue-template-compiler": "^2.6.10"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soniamianji/calculator.git"
   },
-  "postcss": {
-    "plugins": {
-      "autoprefixer": {}
-    }
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soniamianji/calculator/issues"
   },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions"
-  ]
+  "homepage": "https://github.com/soniamianji/calculator#readme"
 }
