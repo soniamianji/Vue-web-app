@@ -1,17 +1,13 @@
 <template>
-  <div class="home">
-    <Calculator msg="Welcome to Your calculator App" />
+  <div class="home w-50 mx-auto">
+    <b-card bg-variant="dark" header="Home" text-variant="white" class="text-center">
+      <b-card-text>Welcome Home!</b-card-text>
+    </b-card>
   </div>
 </template>
 
-<script>
-// // @ is an alias to /src
-// import Calculator from "@/components/Calculator.vue";
-
-// export default {
-//   name: "home",
-//   components: {
-//     Calculator
-//   }
-// };
-</script>
+<style scoped>
+.home {
+  font-size: 2rem;
+}
+</style>

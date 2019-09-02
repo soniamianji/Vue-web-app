@@ -1,11 +1,17 @@
 <template>
   <div id="app">
-    <h1>Welcome to your calculator App</h1>
+    <b-container fluid>
+      <h1>Welcome to the world of entertainment.</h1>
+    </b-container>
 
     <div id="nav">
       <router-link to="/">Home</router-link>|
       <router-link to="/about">About</router-link>
       <router-link to="/dice">Dice</router-link>
+      <router-link to="/faq">FAQ</router-link>
+      <router-link to="/calc">Calculator</router-link>
+      <router-link to="/clock">Clock</router-link>
+      <router-link to="/counters">Counters</router-link>
     </div>
 
     <router-view />
@@ -13,14 +19,16 @@
   </div>
 </template>
 
-<style>
+<style >
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  width: 100vw;
 }
+
 #nav {
   padding: 30px;
 }
