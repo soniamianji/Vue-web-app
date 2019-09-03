@@ -9,17 +9,12 @@
             variant="secondary"
           >{{ item.question }} {{item.index}}</b-button>
 
-          <!-- <b-collapse id="item.answer" accordion="my-accordion" role="tabpanel"> -->
           <b-card-body v-if="item.showAnswer === true">
             <b-card-text class="customTextVariant">{{ item.answer }}</b-card-text>
           </b-card-body>
-          <!-- </b-collapse> -->
         </b-card>
         <h6 class="mt-3">Total number of FAQ is {{faq.length}}</h6>
       </div>
-      <!-- <ul id="faqList">
-        <li v-for="(item) in faq" v-bind:key="item.index">{{ item.question }} - {{index}}</li>
-      </ul>-->
     </b-card>
   </div>
 </template>
